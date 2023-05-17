@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
+    "redux-logger": "^3.0.6"
+  },
+  "name": "clothshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
