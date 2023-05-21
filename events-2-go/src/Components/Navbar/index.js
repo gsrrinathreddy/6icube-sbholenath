@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AccountCircleTwoToneIcon from '@mui/icons-material/AccountCircleTwoTone';
-import { Link } from 'react-router-dom';
+
 import { NavLink } from 'react-router-dom';
 
 
@@ -32,6 +32,7 @@ function Navbar() {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
+
 
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
@@ -106,15 +107,16 @@ function Navbar() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-                <Link to={page} style={{textDecoration:"none"}}>
+                <NavLink to={page}  style={{textDecoration:"none"}}>
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
+                activeStyle={{color:'yellow'}} activeClassName = "selected"
                 sx={{ my: 2,  display: 'block', color:'black', textTransform: "none", textDecoration:"none"}}
               >
                 {page}
               </Button>
-              </Link>
+              </NavLink>
             ))}
           </Box>
 

@@ -9,6 +9,7 @@ import LandingPage from './Pages/LandingPage';
 function App() {
   return (
 <>
+
 <BrowserRouter>
       <Navbar/>
       <Routes>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Contact" element={<Contact/>}/>
       </Routes>
       </BrowserRouter>
+
 </>
   );
 }
