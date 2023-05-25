@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AccountCircleTwoToneIcon from '@mui/icons-material/AccountCircleTwoTone';
+import logo from '../../Assets/logo.png';
 
 import { NavLink } from 'react-router-dom';
 
@@ -39,14 +40,14 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static" sx={{backgroundColor:"White"}}>
+    <AppBar position="fixed" sx={{backgroundColor:"White"}}>
         
       <Container maxWidth="xl">
         <Toolbar disableGutters>
             
         <Box sx={{marginRight:"15px"}}>
             <NavLink to="/">
-          <img src="http://buzzitsolutions.com/events/assets/front/images/logo-white.png" alt="logo" height="85" width="105"/>
+          <img src={logo} alt="logo" height="85" width="105"/>
           </NavLink>
           </Box>
           <Box sx={{ flexGrow: 0.8 }} />
