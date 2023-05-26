@@ -4,6 +4,7 @@ import FeatureComponent from "../../Components/FeaturesComponent";
 
 
 
+
 // import about from '../../Assets/about.jpg'
 // import people from '../../Assets/people.jpg'
 
@@ -167,6 +168,9 @@ export default function LandingPage() {
                         
                         </Grid>
                 </Grid>
+
+
+                    
 
             </div>
         </>

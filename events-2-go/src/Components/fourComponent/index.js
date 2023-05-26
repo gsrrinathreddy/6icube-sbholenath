@@ -6,7 +6,7 @@ import { Button } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 
 export default function BasicCard(props) {
-    const title = props.title;
+const title = props.title;
 const description = props.description;
 const description1 = props.description1;
 const button = props.button;

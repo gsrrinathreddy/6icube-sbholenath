@@ -209,7 +209,7 @@ export default function LandingPage() {
                         title1="Posted on"
                         title2="May 18, 2023"
                         head="Eventer..."
-                        image="http://buzzitsolutions.com/events/uploads/blog/post/devim_1335223258.png"
+                        image="http://events2go.com.au/uploads/blog/post/devim_1407882437.jpg"
                         description="Quaerat neque purus ipsum neque dolor primis libero tempus impedit tempor blandit sapien at gravida donec ipsum,"
                         button="More Details"
                         />
@@ -219,7 +219,7 @@ export default function LandingPage() {
                         title1="Posted on"
                         title2="May 18, 2023"
                         head="First Speakers..."
-                        image="http://buzzitsolutions.com/events/uploads/blog/post/devim_854574434.jpg"
+                        image="http://events2go.com.au/uploads/blog/post/devim_2057839072.jpg"
                         description="Quaerat neque purus ipsum neque dolor primis libero tempus impedit tempor blandit sapien at gravida donec ipsum,"
                         button="More Details"
                         />
@@ -229,7 +229,7 @@ export default function LandingPage() {
                         title1="Posted on"
                         title2="May 17, 2023"
                         head="Eventer..."
-                        image="http://buzzitsolutions.com/events/uploads/blog/post/devim_2057839072.jpg"
+                        image="http://events2go.com.au/uploads/blog/post/devim_854574434.jpg"
                         description="Quaerat neque purus ipsum neque dolor primis libero tempus impedit tempor blandit sapien at gravida donec ipsum,"
                         button="More Details"
                         />
