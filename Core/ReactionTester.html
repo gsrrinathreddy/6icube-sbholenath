@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #shape{
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Reaction Tester Game</h1>
+    <p style="text-align: center;">Click the boxes as soon as you can...</p>
+    <div style="margin-left: 50px;" id="shape"></div>
+    <h2 id="time"></h2>
+
+    <script>
+        var start=new Date().getTime();
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF'
+            var color = "#"
+            for (var i=0; i<6; i++) {
+                color += letters[Math.floor(Math.random()*16)]
+            }
+            return color;
+        }
+        function colorchange() {            
+            document.getElementById("shape").style.backgroundColor = getRandomColor();
+            document.getElementById("time").style.color = getRandomColor();
+            start=new Date().getTime();
+        }
+        colorchange();
+        document.getElementById("shape").onclick = function(){
+            
+            var end=new Date().getTime();
+            var timeTaken = end-start;
+            document.getElementById("time").innerHTML = "You've clicked the box in " + (timeTaken)/1000 + " seconds";
+            colorchange();
+        }
+
+
+    </script>
+</body>
+</html>
