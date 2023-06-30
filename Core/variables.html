@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+
+    <input id="input1" type="text">
+    <button id="button1">Submit</button>
+    <p id="para1">The Random Text</p>
+
+    <script>
+        document.getElementById("button1").onclick = function(){
+            var value1="";
+            value1 = document.getElementById("input1").value;
+            document.getElementById("para1").innerHTML = value1;
+        }
+    </script> 
+</body>
+</html>
